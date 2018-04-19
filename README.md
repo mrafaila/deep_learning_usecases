@@ -1,11 +1,11 @@
-# dl_demos
-Collection of deep learning demos 
+# deep_learning_usecases
+Collection of deep learning demos for different use cases
 
 ### Repository content ###
   
 The repository contains demos of different frameworks and different use cases, on public datasets.
   
-* The folder waveform_clustering contains approaches for clustering of time series:  
+* The folder signal_clustering contains approaches for clustering of time series:  
 
     1. The subfolder Human_Activity_Recognition contains kmeans applied on mobile phone sensor signals to cluster them by the activity of the person (walking, sitting etc.) The original data and supervised solution can be found here: https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition    
 
@@ -27,6 +27,9 @@ The repository contains demos of different frameworks and different use cases, o
   
 * GAN contains a demo of a generative adversarial network for distribution fitting/generation  
   
+*  anomaly_autoencoder is an example of how to use a simple autoencoder and its reconstruction error to score outliers
+Source: http://philipperemy.github.io/anomaly-detection/
+
 * data contains the data for all of the above examples
   
 ### Repository owner ###
